@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <title>Bootstrap 5 - Landing Page</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">&#9992; utazzvelunk</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Kezdőoldal</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#about">Rólunk</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#services">Szolgáltatások</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contact">Kapcsolat</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <section id="bg" class="d-flex justify-content-center align-items-center">
+            <div class="container text-center text-light">
+                <h1 class="display-2">Utazz velünk!</h1>
+                <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur adipisci officia quam nemo perferendis optio dolore amet consequuntur! Iusto facere, doloremque accusantium rem in numquam alias hic dolores! Totam vero incidunt deleniti esse error.</p>
+                <button class="btn btn-outline-light btn-lg">Utazások</button>
+            </div>
+        </section>
+
+        <section id="about" class="w-100 bg-dark text-light" name="about">
+            <div class="container text-center">
+                <h2>Rólunk</h2>
+                <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis aspernatur accusamus praesentium doloribus minus omnis repudiandae! Blanditiis sequi maxime expedita fugit vel natus, eligendi repellendus, delectus veniam rem hic aut dolores voluptates dolor porro! Consequatur non officiis, velit optio ullam natus vitae corporis. Explicabo doloribus aut iste itaque tempora amet.</p>
+            </div>
+        </section>
+
+        <section id="services" class="w-100 text-center bg-dark text-light" name="services">
+            <div class="container">
+                <h2 class="mb-5">Szolgáltatások</h2>
+
+                <div class="row row-cols-1 row-cols-lg-3 g-3">
+
+                    <div class="col">
+                        <span>&#127794;</span>
+                        <h3>Belföldi utazások</h3>
+                        <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, voluptatem! Tempora a eaque fuga nobis quis quos totam eius nam!</p>
+                        <button class="btn btn-light">Érdekel</button>
+                    </div>
+
+                    <div class="col">
+                        <span>&#9992;</span>
+                        <h3>Külföldi utazások</h3>
+                        <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, voluptatem! Tempora a eaque fuga nobis quis quos totam eius nam!</p>
+                        <button class="btn btn-light">Érdekel</button>
+                    </div>
+
+                    <div class="col">
+                        <span>&#128674;</span>
+                        <h3>Hajós utazások</h3>
+                        <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, voluptatem! Tempora a eaque fuga nobis quis quos totam eius nam!</p>
+                        <button class="btn btn-light">Érdekel</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="w-100 bg-dark text-light text-center" name="contact">
+            <div class="container">
+
+                <h2 class="mb-2">Kapcsolat</h2>
+
+                <form action="" method="post" class="w-75 mx-auto p-5">
+
+                    <label class="form-label">Név</label>
+                    <input type="text" class="form-control my-2">
+
+                    <label class="form-label">E-mail cím</label>
+                    <input type="email" class="form-control my-2">
+
+                    <label class="form-label">Tárgy</label>
+                    <select class="form-control my-2">
+                        <option selected disabled>Tárgy</option>
+                        <option>Érdeklődés</option>
+                        <option>Karrier</option>
+                    </select>
+
+                    <label class="form-label">Üzenet</label>
+                    <textarea cols="30" rows="10" class="form-control my-2"></textarea>
+
+                    <button class="btn btn-light mt-2">Küldés</button>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    </body>
+
+</html>

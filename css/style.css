@@ -1,0 +1,52 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+#bg{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/city.jpg") no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+#about, #services, #contact{
+
+    padding: 100px 0;
+}
+
+.navbar{
+
+    background-color: rgb(29, 32, 36) !important;
+}
+
+#services{
+
+    background-color: rgb(29, 32, 36) !important;
+}
+
+#services span{
+
+    font-size: 27px;
+}
+
+#contact form textarea{
+
+    resize: none;
+    
+}
+
+@media screen and (max-width: 992px){
+
+    #contact form{
+
+        width: 100% !important;
+    }
+}
